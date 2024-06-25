@@ -6,7 +6,7 @@ This project provides a publicly available mail server for user feedback handlin
 
 ### Base URL
 The service is hosted on Render. Use the following base URL to access the service:
-
+### https://feedback-mail-server.onrender.com
 
 
 ### Endpoints
