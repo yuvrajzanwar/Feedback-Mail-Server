@@ -70,9 +70,12 @@ app.post('/contact', async (req, res) => {
     console.log('Message is relevant');
 
     const mailOptions = {
-        from: process.env.EMAIL_USER,
+        from: {
+            name: name, 
+            address: process.env.EMAIL_USER
+        },
         to: receiverEmail,
-        subject: `Feedback from ${name}`,
+        subject: `Feedback message from ${name}`,
         html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
             <h2 style="color: #333;">Feedback received</h2>
