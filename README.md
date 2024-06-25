@@ -55,7 +55,9 @@ GOOGLEAI_API_KEY=your-google-ai-api-key
 ```terminal
 node server.js
 ```
-## Updates coming soon
+## Updates to be added : 
+### Add database for storing and managing the feedback messages corresponding to each receiver mail.
+### Add other routes to view messages stored in the database alongwith their relevance status after authentication. 
 
 ## Contributing
 ### Feel free to submit issues or pull requests to improve the project.
